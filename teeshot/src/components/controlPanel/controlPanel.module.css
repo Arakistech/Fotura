@@ -1,0 +1,19 @@
+.wrapper {
+    box-sizing: border-box;
+    width: fit-content;
+    width: 245px;
+    /* padding: 25px 0; */
+}
+.gridContainer {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.containerInner {
+    overflow: scroll;
+    margin-top: -15px;
+}
+.input {
+    display: none;
+}
